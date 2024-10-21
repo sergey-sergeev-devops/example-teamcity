@@ -31,10 +31,6 @@ public class WelcomerTest {
 		assertThat(welcomer.saySome(), containsString("something"));
 	}
 	public void welcomerSayHunter(){
-<<<<<<< HEAD
 		assertThat(welcomer.sayHanter(), containsString("Hanter!"));
-=======
-		assertThat(welcomer.sayHanter(), containsString("Hanter"));
->>>>>>> feature/add_reply
 	}
 }
